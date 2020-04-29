@@ -1,0 +1,41 @@
+.loginForm {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: center;
+    background-color: #B9CBAD;
+    border-radius: 10px;
+    width: 100%;
+}
+.signin_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.title_logo {
+    width: 110px;
+}
+.signin_title p {
+    font-size: 30px;
+    margin: 5px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.input_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.input_container label {
+    font-size: 20px;
+    font-family: fantasy;
+}
+.btn_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

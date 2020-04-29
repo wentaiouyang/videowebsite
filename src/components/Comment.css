@@ -1,0 +1,18 @@
+.comment {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: 50px;
+  }
+  
+  .comment .comment-user {
+    flex-shrink: 0;
+  }
+  .comment-username {
+    color: rgb(97, 136, 85);
+    font-style: italic;
+    font-weight: bold;
+  }
